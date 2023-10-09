@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:entries="@array/articles"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <!--<Button
+        android:id="@+id/buttonArticle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article 1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/buttonArticle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article 2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/buttonArticle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article 3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/buttonArticle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article 4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>-->
+</LinearLayout>

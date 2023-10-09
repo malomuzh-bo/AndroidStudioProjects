@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="articles">
+        <item>Food</item>
+        <item>Drinks</item>
+        <item>Best smartphone</item>
+        <item>Basketball</item>
+        <item>Formula 1</item>
+        <item>Love</item>
+        <item>Travels</item>
+    </string-array>
+</resources>
